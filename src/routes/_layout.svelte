@@ -1,22 +1,16 @@
 <script>
-	import Nav from '../components/Nav.svelte';
+  import Tailwind from "../components/Tailwind.svelte";
+  import Nav from "../components/Nav.svelte";
 
-	export let segment;
+  export let segment;
 </script>
 
-<style>
-	main {
-		position: relative;
-		max-width: 56em;
-		background-color: white;
-		padding: 2em;
-		margin: 0 auto;
-		box-sizing: border-box;
-	}
-</style>
+<Tailwind />
+<div class="max-w-screen-md mx-auto bg-white">
 
-<Nav {segment}/>
+  <Nav {segment} />
 
-<main>
-	<slot></slot>
-</main>
+  <main class="p-2 my-0 mx-auto box-border">
+    <slot />
+  </main>
+</div>
