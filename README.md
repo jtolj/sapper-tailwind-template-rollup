@@ -1,6 +1,6 @@
 # sapper-template
 
-The a modified version of the default [Sapper](https://github.com/sveltejs/sapper) template, using Tailwind CSS and Rollup.
+The a modified version of the default [Sapper](https://github.com/sveltejs/sapper) template, using [Tailwind CSS](https://tailwindcss.com) and [Rollup](https://rollupjs.org/).
 
 ## Getting started
 
